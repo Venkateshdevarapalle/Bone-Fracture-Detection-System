@@ -1,0 +1,16 @@
+Bone Fracture Detection Report
+==============================
+
+Uploaded file: 1.jpg
+
+
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3s/step
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m3s[0m 3s/step
+
+--- X-Ray Report ---
+🖼️ Uploaded Image: 1.jpg
+🔍 Prediction: 🩻 Fractured
+📋 Findings: Probable fracture detected (confidence: 0.99).
+Location: Left forearm region.
+Recommendation: Clinical confirmation advised.
+

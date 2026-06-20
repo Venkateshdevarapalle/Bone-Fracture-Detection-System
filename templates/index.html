@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bone Fracture Detection</title>
+<style>
+body { background-color:#121212; color:white; font-family:Arial, sans-serif; margin:0; padding:0; }
+.container { display:flex; padding:20px; }
+.left { flex:2; padding:20px; }
+.right { flex:1; padding:20px; background:#1e1e1e; border-left:2px solid #333; }
+input[type=file] { padding:10px; background:#f0f0f0; color:black; border:none; }
+button { padding:10px 20px; margin-top:10px; background:#f5f5f5; color:black; border:none; cursor:pointer; }
+img { max-width:100%; margin-top:10px; }
+.report { background:#1e1e1e; padding:10px; margin-top:10px; white-space:pre-wrap; }
+ul { list-style:none; padding:0; }
+li { padding:5px; cursor:pointer; color:#bbb; }
+li:hover { color:white; text-decoration:underline; }
+.download-link { display:block; margin-top:10px; color:#4da6ff; text-decoration:none; }
+.download-link:hover { text-decoration:underline; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="left">
+    <h2>Upload an X-ray image to analyze</h2>
+    <form method="POST" enctype="multipart/form-data">
+      <input type="file" name="file" required>
+      <br>
+      <button type="submit">Upload</button>
+    </form>
+
+    {% if uploaded_image %}
+      <img src="{{ url_for('static', filename='uploads/' + uploaded_image) }}" alt="Uploaded Image">
+      <div class="report">{{ output_report }}</div>
+
+      {% if report_file %}
+        <a class="download-link" href="{{ url_for('download_report', filename=report_file) }}">📥 Download Report</a>
+      {% endif %}
+    {% endif %}
+  </div>
+
+  <div class="right">
+    <h3>Previous Uploads</h3>
+    <ul>
+      {% for item in previous_uploads %}
+        <li onclick="window.location.href='/?file={{ item.filename }}'">{{ item.filename }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+--- X-Ray Report ---
+🖼 Uploaded Image: 1.jpg
+🔍 Prediction: Fracture
+📋 Findings:
+Signs of possible bone fracture detected.

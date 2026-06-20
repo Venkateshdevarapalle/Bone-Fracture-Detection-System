@@ -1,0 +1,16 @@
+Bone Fracture Detection Report
+==============================
+
+Uploaded file: a.jpg
+
+
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 140ms/step
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 194ms/step
+
+--- X-Ray Report ---
+🖼️ Uploaded Image: a.jpg
+🔍 Prediction: ✅ Not Fractured
+📋 Findings: No visible fracture detected (confidence: 0.92).
+Bone structure appears intact.
+Recommendation: Regular monitoring if symptoms persist.
+
