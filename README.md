@@ -276,15 +276,15 @@ http://127.0.0.1:5000
 
 ### Home Page
 
-"C:\Users\devarapalle\OneDrive\Pictures\Screenshots\Screenshot 2026-06-22 102447.png"
+["C:\Users\devarapalle\OneDrive\Pictures\Screenshots\Screenshot 2026-06-22 102447.png"](https://i.postimg.cc/brLZ3M9T/Screenshot-2026-06-22-102447.png)
 
 ### Fracture Prediction
 
-"C:\Users\devarapalle\OneDrive\Pictures\Screenshots\Screenshot 2026-06-22 102517.png"
+["C:\Users\devarapalle\OneDrive\Pictures\Screenshots\Screenshot 2026-06-22 102517.png"](https://i.postimg.cc/3wpWPWZx/Screenshot-2026-06-22-102517.png)
 
 ### Non-Fracture Prediction
 
-"C:\Users\devarapalle\OneDrive\Pictures\Screenshots\Screenshot 2026-06-22 102703.png"
+["C:\Users\devarapalle\OneDrive\Pictures\Screenshots\Screenshot 2026-06-22 102703.png"](https://i.postimg.cc/kGM46sPB/Screenshot-2026-06-22-102703.png)
 
 ---
 
