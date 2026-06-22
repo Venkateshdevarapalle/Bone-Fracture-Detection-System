@@ -272,16 +272,19 @@ http://127.0.0.1:5000
 
 ---
 
-## 📸 Screenshots
+## 📸 Application Preview
 
-### Home Page
+### 🏠 Home Page
 
-![Home Page](screenshots/Screenshot%202026-06-22%20102447.png)
-### Fracture Prediction
+![Home Page](screenshots/home.png)
 
-![Fracture Prediction](screenshots/Screenshot%202026-06-22%20102517.png)
-### Non-Fracture Prediction
-![Non Fracture Prediction](screenshots/Screenshot%202026-06-22%20102703.png)
+### 🩻 Fracture Detection Result
+
+![Fracture Prediction](screenshots/fracture_prediction.png)
+
+### ✅ Non-Fracture Detection Result
+
+![Non Fracture Prediction](screenshots/non_fracture_prediction.png)
 
 ---
 
