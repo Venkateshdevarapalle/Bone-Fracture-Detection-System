@@ -276,13 +276,14 @@ http://127.0.0.1:5000
 
 ### Home Page
 
-"C:\Users\devarapalle\OneDrive\Desktop\pro\bonedup\screenshots\home.png"
+screenshots/home.png
 ### Fracture Prediction
 
 "C:\Users\devarapalle\OneDrive\Desktop\pro\bonedup\screenshots\fracture_prediction.png"
 ### Non-Fracture Prediction
 
 "C:\Users\devarapalle\OneDrive\Desktop\pro\bonedup\screenshots\non_fracture_prediction.png"
+
 ---
 
 ## 👨‍💻 Author
